@@ -1,5 +1,11 @@
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-    Title = "Well Umm This Is Awkward";
-    Text = "Looks Like Luna Has Been Patched";
-    Duration = 1213331231;
+    Title = "Fuck You Duolingo";
+    Text = "The Script Has Been TOTALLY PATCHED";
+    Duration = 100;
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = "Fuck You Duolingo";
+    Text = "Might Be Releasing a Givenchy script";
+    Duration = 100;
 })
