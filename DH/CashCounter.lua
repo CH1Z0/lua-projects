@@ -1,4 +1,5 @@
 --//made this fast so the ui is trash
+--//never gonna touch this again so feel free to steal
 
 local CashCounter = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
@@ -27,7 +28,7 @@ TitleLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TitleLabel.BackgroundTransparency = 1.000
 TitleLabel.Size = UDim2.new(1, 0, 0.267605633, 0)
 TitleLabel.Font = Enum.Font.FredokaOne
-TitleLabel.Text = "Tripped's cash counter"
+TitleLabel.Text = "Nachito's cash counter"
 TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TitleLabel.TextScaled = true
 TitleLabel.TextSize = 14.000
