@@ -1,16 +1,12 @@
---//not obfuscated bc its easy to make
+--//made this fast so the ui is trash
+
 local CashCounter = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local TitleLabel = Instance.new("TextLabel")
-local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 local CashLabel = Instance.new("TextLabel")
-local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
 
-
+--Properties:
 
 CashCounter.Name = "CashCounter"
 CashCounter.Parent = game.CoreGui
@@ -30,18 +26,12 @@ TitleLabel.Parent = MainFrame
 TitleLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TitleLabel.BackgroundTransparency = 1.000
 TitleLabel.Size = UDim2.new(1, 0, 0.267605633, 0)
-TitleLabel.Font = Enum.Font.Unknown
+TitleLabel.Font = Enum.Font.FredokaOne
 TitleLabel.Text = "Tripped's cash counter"
 TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TitleLabel.TextScaled = true
 TitleLabel.TextSize = 14.000
 TitleLabel.TextWrapped = true
-
-UIAspectRatioConstraint.Parent = TitleLabel
-UIAspectRatioConstraint.AspectRatio = 11.053
-
-UITextSizeConstraint.Parent = TitleLabel
-UITextSizeConstraint.MaxTextSize = 18
 
 CashLabel.Name = "CashLabel"
 CashLabel.Parent = MainFrame
@@ -49,25 +39,15 @@ CashLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 CashLabel.BackgroundTransparency = 1.000
 CashLabel.Position = UDim2.new(0, 0, 0.267605633, 0)
 CashLabel.Size = UDim2.new(1, 0, 0.732394338, 0)
-CashLabel.Font = Enum.Font.Gotham
+CashLabel.Font = Enum.Font.FredokaOne
 CashLabel.Text = "NIL"
 CashLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-CashLabel.TextScaled = true
-CashLabel.TextSize = 20.000
+CashLabel.TextSize = 30.000
 CashLabel.TextWrapped = true
 
-UIAspectRatioConstraint_2.Parent = CashLabel
-UIAspectRatioConstraint_2.AspectRatio = 4.038
+-- Scripts:
 
-UITextSizeConstraint_2.Parent = CashLabel
-UITextSizeConstraint_2.MaxTextSize = 20
-
-UIAspectRatioConstraint_3.Parent = MainFrame
-UIAspectRatioConstraint_3.AspectRatio = 2.958
-
-
-
-local function MMALA_fake_script() -- CashLabel.CashDroppedSript 
+local function CWJI_fake_script() -- CashLabel.CashDroppedSript 
 	local script = Instance.new('LocalScript', CashLabel)
 
 	while wait() do
@@ -91,8 +71,8 @@ local function MMALA_fake_script() -- CashLabel.CashDroppedSript
 		end)
 	end
 end
-coroutine.wrap(MMALA_fake_script)()
-local function MTOAVWW_fake_script() -- MainFrame.Dragify 
+coroutine.wrap(CWJI_fake_script)()
+local function PVHNOTC_fake_script() -- MainFrame.Dragify 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -135,4 +115,4 @@ local function MTOAVWW_fake_script() -- MainFrame.Dragify
 		end
 	end)
 end
-coroutine.wrap(MTOAVWW_fake_script)()
+coroutine.wrap(PVHNOTC_fake_script)()
