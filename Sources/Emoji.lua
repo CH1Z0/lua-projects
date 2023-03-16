@@ -1,4 +1,4 @@
--- \\ If the whitelist API is down make sure to refresh before adding a whitelist! // --
+
 local BlackHoleID = {
 	[4301887151] = true, --//Solar
     [4407833389] = true; --//Arctis
