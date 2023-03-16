@@ -1,3 +1,4 @@
+--//not by me arctis, found in synapse's discord server
 -- RConsole HTTP Spy
 -- Made by topit
 -- Note that this code is still pretty shitty even after most of it was remade
