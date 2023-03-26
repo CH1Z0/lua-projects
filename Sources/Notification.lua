@@ -1,4 +1,3 @@
-
 function createNotification(title, message, duration)
     local gui = Instance.new("ScreenGui", game:GetService("CoreGui"))
     gui.Name = "NotificationGui"
@@ -23,6 +22,7 @@ function createNotification(title, message, duration)
 
     local messageText = Instance.new("TextLabel", frame)
     messageText.Text = message
+    messageText.TextScaled = true
     messageText.Position = UDim2.new(0, 10, 0, 35)
     messageText.Size = UDim2.new(1, -20, 0, 25)
     messageText.Font = Enum.Font.SourceSans
@@ -34,5 +34,3 @@ function createNotification(title, message, duration)
     wait(duration or 5)
     gui:Destroy()
 end
-
-
